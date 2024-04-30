@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  height: 80px;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(183, 180, 180);
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+}
+.logo-container {
+  margin-left: 2%;
+  float: left;
+}
+
+.myntra-logo {
+  width: 53px;
+  height: 36px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.action-bar {
+  margin-right: 4%;
+}
+.nav-bar {
+  display: flex;
+  width: 30%;
+  justify-content: space-evenly;
+  min-width: 500px;
+}
+.nav-bar a {
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  color: #282c3f;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 29px 0px;
+  box-sizing: content-box;
+  border-bottom: 2px solid white;
+}
+.nav-bar a:hover {
+  border-bottom: 2px solid red;
+}
+.nav-bar a sup {
+  top: -0.4rem;
+  font-size: 100%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  text-transform: uppercase;
+  color: red;
+}
+.search-bar {
+  height: 40px;
+  min-width: 400px;
+  display: flex;
+  align-items: center;
+}
+.search-input {
+  color: gainsboro;
+  flex-grow: 1;
+  background-color: #f5f5f6;
+  height: 40px;
+  border: none;
+  border-radius: 0px 4px 4px 0px;
+}
+.serach-icon {
+  height: 20px;
+  box-sizing: content-box;
+  padding: 10px;
+  background-color: #f5f5f6;
+  color: gray;
+  border: 4px 0px 0px 4px;
+  cursor: pointer;
+}
+.action-bar {
+  display: flex;
+  min-width: 200px;
+  justify-content: space-evenly;
+}
+.action-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-banner {
+  margin: 20px 0px;
+}
+.container-banner img {
+  width: 100%;
+  height: 400px;
+}
+.container-category {
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: 0.15em;
+  font-size: 1.5em;
+  margin: 50px 0 10px 30px;
+  max-height: 5em;
+  font-weight: 700;
+}
+.container-items {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  padding: 20px;
+}
+.data-col {
+  display: flex;
+  flex-direction: column;
+}
+.data-col a {
+  text-decoration: none;
+  color: black;
+}
+.copyright {
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  font-weight: 400;
+}
